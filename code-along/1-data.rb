@@ -31,8 +31,22 @@ puts "I want " + 3.to_s # requires converter for string on the number
 
 # Variables
 
-
+food = "Tacos"
+quantity = 3
+puts food * quantity
+    #best practice is to name variables, not simply put an "x" or "a"
 
 # Combine strings and variables
 
+first_name = "Huni"
+puts "hello, " + first_name + "!" # starts to get cumbersome, just like doing multiple & in xls
+puts "hello, #{first_name}!" # string interpolation
+
+greeting = "Hello, #{first_name}!"
+puts greeting
+
 # String manipulation
+
+puts first_name.upcase #upcase command
+puts greeting.reverse #reverse it
+puts greeting.swapcase #min to mayus and vice versa
