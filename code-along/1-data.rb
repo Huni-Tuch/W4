@@ -21,11 +21,17 @@ puts 2.0 / (5.0 + 1.0) # example of order of operations
 
 # Strings
 
-
+puts "Hello World" # Use parenthesis
 
 # Combine strings together
 
+puts "I want" + " fish tacos" # String concatenation
+puts "No pasa nada" * 3 # displays 3x the phrase, ojo que no jala si cambias el orden
+puts "I want " + 3.to_s # requires converter for string on the number
+
 # Variables
+
+
 
 # Combine strings and variables
 
