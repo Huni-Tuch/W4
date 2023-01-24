@@ -15,26 +15,10 @@
 my_shopping_list = ["coffee", "bananas", "peanuts"]
 her_shopping_list = ["eggs", "bacon", "maple syrup"]
 
-combined_shopping_list =[]
+combined_list = my_shopping_list + her_shopping_list
 
-puts combined_shopping_list
-
-puts "---"
-
-combined_shopping_list.push my_shopping_list
-
-puts combined_shopping_list
-
-puts "---"
-
-combined_shopping_list.push her_shopping_list
-
-puts combined_shopping_list
-
-combined_shopping_list.sort_by
-
-puts "---"
-puts combined_shopping_list
+sorted_list = combined_list.sort
+puts sorted_list
 
 # HINTS
 # Learn to read the documentation!
