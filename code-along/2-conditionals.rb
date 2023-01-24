@@ -30,8 +30,51 @@ if 3 > 2
 
 end # always type the end simultaneously to the if
 
+password = "tacos"
+
+user_entered_password = "password1"
+
+if password == user_entered_password
+
+    puts "you're in!"
+
+    else
+        
+        puts "not happening under my watch, dude"
+
+end
+
 # If/Else Conditional Logic
 
 # Elsif Conditional Logic
 
+home_team_score = 101
+away_team_score = 101
+
+if home_team_score > away_team_score
+
+    puts "Wildcats Won!"
+
+elsif home_team_score < away_team_score
+
+    puts "Wildcats Lost :("
+
+else
+
+    puts "t'was a tie"
+
+end
+
 # Combining Expressions
+
+temp = 68
+
+if temp < 80 && temp > 60
+
+    puts "perfect"
+
+else
+
+    puts "nariz nariz nariz"
+
+end
